@@ -1,0 +1,3 @@
+
+AUX_SOURCE_DIRECTORY(src LUA_SOURCE)
+add_library(lua STATIC ${LUA_SOURCE})

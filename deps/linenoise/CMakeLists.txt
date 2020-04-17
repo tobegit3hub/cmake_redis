@@ -1,0 +1,6 @@
+
+#set(LINENOISE_SOURCE linenoise.c)
+#add_library(linenoise STATIC ${LINENOISE_SOURCE})
+
+AUX_SOURCE_DIRECTORY(. LINENOISE_SOURCE)
+add_library(linenoise STATIC ${LINENOISE_SOURCE})
